@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	box-sizing: border-box;
+}
+
+body{
+	background: url('../media/indexbg.jpg') no-repeat center center/cover;
+	background-color: gray;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100vw;
+	text-align: left;
+	min-height: 1vh;
+}
+
+.grid{
+	position: relative;
+	top: 50px;
+	display: grid;
+	width: 114em;
+	grid-gap: 6rem;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	align-items: start;
+}
+
+.grid a{
+	text-decoration: none;
+}
+
+.title{
+	grid-column: 1 / -1;
+	text-align: left;
+	text-justify: bottom;
+	height: 6rem;
+}
+
+.title h1{
+	display: block;
+	font-size: 4rem;
+	font-weight:500;
+	margin-bottom: 1.5rem;
+	color: white;
+	text-shadow:  0.5px 0.5px rgba(2,0,0,0.5);
+	padding: 0;
+}
+
+.title p{
+	font-size: 1.6rem;
+	letter-spaciong: 0.1rem;
+	line-height: 1.2;
+	color: #fff;
+}
+	
+.grid-item{
+	padding: 10px;
+	background-color: rgba(10, 10, 10, 0.85);
+	border-radius: 0.4rem;
+	overflow: hidden;
+	box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.grid-item:hover{
+	transform: translateY(-0.5%);
+	box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+}
+
+.card-img{
+	display: block;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.card-header{
+	font-size: 3rem;
+	font-weight:500;
+	color: #fff;
+	margin-bottom: 1.5rem;
+}
+
+.card-text{
+	font-size: 1.6rem;
+	letter-spaciong: 0.1rem;
+	line-height: 1.7;
+	color: #fff;
+	margin-bottom: 2.5rem;
+}
+
+
+.card-btn span{
+	margin-left: 1rem;
+	transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active{
+	barckground-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span{
+	margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 62em){
+	.title{
+		height: 7rem;
+	}
+	.title h1{
+		font-size: 2.5rem;
+	}
+	.grid{
+		grid-gap: 3rem
+	}
+}

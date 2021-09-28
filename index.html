@@ -1,24 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Adam, Danaan, Kyle, & Nick">
-    <meta name="description" content="Home Page">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <ul id="menu">
-        <li><form action="search.html" id="formSearch" name="formSearch" method="GET"><input type="text" id="textSearch" name="textSearch" placeholder="Search" ><input type="submit" value="Search"/></form></li>
-        <li></li><a href="index.html">Home</a></li>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="culture.html">Culture</a></li>
-        <li><a href="environment.html">Environment</a></li>
-        <li><a href="amenities.html">Amenities</a></li>
-        <li><a href="camping.html">Camping</a></li>
-        <li><a href="transportation.html">Transportation</a></li>
-        <li><a href="emergency.html">Emergency</a></li>
-      </ul> 
-    <h1>Home Page</h1>
-    <p>Insert content here</p>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Adam, Danaan, Kyle, & Nick">
+		<meta name="description" content="Home Page">
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/menu.css">
+	</head>
+	<body>
+		<header class="header">
+			<input class="menu-btn" type="checkbox" id="menu-btn">
+			<label class="menu-icon" for="menu-btn">
+				<span class="nav-icon">
+				</span>
+			</label>
+			<ul class="menu">
+				<li id="search"><form action="search.html" id="formSearch" name="formSearch" method="GET"><input type="text" id="textSearch" name="textSearch" placeholder="Search" ><input type="submit" id="searchButton" value="Search"/></form></li>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="map.html">Map</a></li>
+				<li><a href="culture.html">Culture</a></li>
+				<li><a href="environment.html">Environment</a></li>
+				<li><a href="amenities.html">Amenities</a></li>
+				<li><a href="camping.html">Camping</a></li>
+				<li><a href="transportation.html">Transportation</a></li>
+				<li><a href="emergency.html">Emergency</a></li>
+			  </ul>
+		</header>
+		<div class="grid">
+		<div class="title">
+		<h1>Welcome to Cape York</h1>
+		<p>Visitor Information Guide.</p>
+		</div>
+			<a href="environment.html">
+				<div class="grid-item">
+					<div class="card">
+						<img class="card-img" src="media/card1.jpg" alt="Environment" />
+						<div class="card-content">
+							<h1 class="card-header">Environment</h1>
+							<p class="card-text">
+								Environment text.
+							</p>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="culture.html">
+				<div class="grid-item">
+					<div class="card">
+						<img class="card-img" src="media/card2.jpg" alt="" />
+						<div class="card-content">
+							<h1 class="card-header">Culture</h1>
+							<p class="card-text">
+								Culture text.
+							</p>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="Map.html">
+				<div class="grid-item">
+					<div class="card">
+						<img class="card-img" src="media/card3.jpg" alt="" />
+						<div class="card-content">
+							<h1 class="card-header">Locations</h1>
+							<p class="card-text">
+								Map text.
+							</p>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</body>
 </html>
