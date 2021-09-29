@@ -23,7 +23,7 @@
 	overflow: hidden;
 }
 
-li#search{
+#search{
 	padding: 10px;
 }
 
@@ -34,7 +34,7 @@ li#search{
 	color: #fff;
 	border-radius: 5px;
 	border: 0;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	margin:0px 0px 0px 10px;
 }
 
@@ -42,8 +42,9 @@ li#search{
 	color: #000;
 	height: 28px;
 	width: 200px;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	border-radius: 5px;
+	padding-left: 5px;
 
 }
 
@@ -120,7 +121,7 @@ li#search{
 	top: 0;
 }
 
-@media (min-width:1320px){
+@media (min-width:1366px){
 	.header{
 		font-size: 1rem;
 	}
