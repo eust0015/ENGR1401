@@ -37,7 +37,7 @@ body{
 	grid-column: 1 / -1;
 	text-align: left;
 	text-justify: bottom;
-	padding: 0;
+	padding-top: 50px;
 }
 
 .title h1{
@@ -126,6 +126,7 @@ body{
 	.title{
 	height: 7rem;
 	grid-row: 1;
+	padding-top: 0;
 	}
 	
 }
