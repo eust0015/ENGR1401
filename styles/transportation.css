@@ -142,3 +142,38 @@ body{
   text-align:left;
   transform: translate(0%,1190%);
 }
+
+.fourth img{
+    position: absolute;
+    top: 1;
+    left: 0;
+    height: 150%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin:77.7rem 0 0 0;
+}
+
+.fourth h3{
+  min-height:230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,504%);
+  padding: 30px;
+  max-width: 557px;
+  width: 100%;
+  background-color:rgba(255,255,255,0.8);
+  font-size:2rem;
+  text-transform: uppercase;
+  font-family:arial;
+  text-align:center;
+}
+
+.fourth p{
+  position:absolute;
+  padding: 30px;
+  font-family:arial;
+  text-align:left;
+  transform: translate(93%,1790%);
+}
