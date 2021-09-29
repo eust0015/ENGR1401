@@ -37,3 +37,38 @@ body{
 	line-height: 1.2;
 	color: #fff;
 }
+
+.first img{
+    position: absolute;
+    top: 1;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    object-position: left;
+    margin:5rem 0 0 0;
+}
+
+.first h3{
+  min-height:230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,78%);
+  padding: 30px;
+  max-width: 557px;
+  width: 100%;
+  font-size:2rem;
+  text-transform: uppercase;
+  font-family:arial;
+  background-color:white;
+  text-align:center;
+}
+
+.first p{
+  position:absolute;
+  padding: 30px;
+  font-family:arial;
+  text-align:left;
+  transform: translate(160%,210%);
+}
