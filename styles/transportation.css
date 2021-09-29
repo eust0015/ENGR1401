@@ -17,17 +17,18 @@ body{
 }
 
 .title h1{
+  font-family:serif;
   height:8rem;
   padding:6rem 0 4rem 0;
   font-size: 5rem;
-	font-weight:800;
-	color: white;
-	text-shadow:2px 2px black;
+  font-weight:800;
+  color: white;
+  text-shadow:2px 2px black;
   text-align:center;
   background-image:url("https://4x4actionadventure.com/wp-content/uploads/2018/09/oz1-2100x700.jpg");
   background-size:80rem 25rem;
   opacity:0.95;
-  border:1px solid black;
+  border:1.5px solid white;
 }
 
 .title p{
