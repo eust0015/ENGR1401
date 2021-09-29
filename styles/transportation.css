@@ -107,3 +107,38 @@ body{
   text-align:left;
   transform: translate(97%,670%);
 }
+
+.third img{
+    position: absolute;
+    top: 1;
+    left: 0;
+    height: 150%;
+    width: 70%;
+    object-fit: cover;
+    object-position: right;
+    margin:50.48rem 0 0 23.1rem;
+}
+
+.third h3{
+  min-height:377px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-166.5%,218.1%);
+  padding: 30px;
+  max-width: 310px;
+  width: 100%;
+  background-color:white;
+  font-size:2rem;
+  text-transform: uppercase;
+  font-family:arial;
+  text-align:center;
+}
+
+.third p{
+  position:absolute;
+  padding: 30px;
+  font-family:arial;
+  text-align:left;
+  transform: translate(0%,1190%);
+}
