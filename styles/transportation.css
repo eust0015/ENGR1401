@@ -177,3 +177,38 @@ body{
   text-align:left;
   transform: translate(93%,1790%);
 }
+
+.fifth img{
+    position: absolute;
+    top: 1;
+    left: 0;
+    height: 100%;
+    width: 60.1%;
+    object-fit: cover;
+    object-position: left;
+    margin:104.97rem 0 0 0;
+}
+
+.fifth h3{
+  min-height:230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(25%,629.4%);
+  padding: 30px;
+  max-width: 432px;
+  width: 100%;
+  background-color:white;
+  font-size:2rem;
+  text-transform: uppercase;
+  font-family:arial;
+  text-align:center;
+}
+
+.fifth p{
+  position:absolute;
+  padding: 30px;
+  font-family:arial;
+  text-align:left;
+  transform: translate(216%,2250%);
+}
