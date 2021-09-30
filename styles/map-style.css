@@ -1,1 +1,2 @@
-#map { height: 500px; }
+#map { height: 480px; width: 640px; }
+.leaflet-control-layers-list { text-align: left; }
