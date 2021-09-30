@@ -212,3 +212,60 @@ body{
   text-align:left;
   transform: translate(216%,2250%);
 }
+
+.sixth img{
+  position: absolute;
+    top: 1;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin:123rem 0 0 0;
+}
+
+.overlay{
+  min-height:70px;
+  position: absolute;
+  top: 55%;
+  left: 6.8%;
+  transform: translate(0%,1554%);
+  padding: 30px;
+  max-width: 300px;
+  width: 100%;
+  background-color:rgba(128,128,128,0.2);
+  border: 5px solid white;
+  border-radius:10px;
+}
+
+.text{
+  position:absolute;
+  padding: 18px 70px;
+  font-family:arial;
+  text-align:center;
+  color:white;
+  font-size:200%;
+  letter-spacing:.1px;
+}
+
+.sixth:hover .overlay{
+  background-color:white;
+}
+
+.sixth:hover .text{
+  color:black
+}
+
+.sixth p{
+  position:absolute;
+  padding:20px;
+  font-family:arial;
+  min-height:70px;
+  top: 50%;
+  left: 50%;
+  max-width: 502px;
+  background-color:rgba(255,255,255,0.8);
+  font-family:arial;
+  text-align:left;
+  transform: translate(0%,2008%);
+}
