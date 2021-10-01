@@ -9,5 +9,5 @@ body {
 	min-height: 1vh;
 }
 
-#map { position: absolute; top: 50px; height: calc(100vh - 50px); width: 100vw; }
+#map { position: absolute; top: 50px; height: calc(100vh - 50px); width: 100vw; z-index: 1;}
 .leaflet-control-layers-list { text-align: left; }

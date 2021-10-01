@@ -5,6 +5,7 @@
 	width: 100%;
 	z-index: 3;
 	top: 0;
+	left: 0;
 	margin: 0;
 	font-size: 1.3rem;
 	color: #fff;
@@ -39,9 +40,8 @@
 	margin:0px 0px 0px 10px;
 }
 
-form#search{
+#search{
 	color: #000;
-	height: 28px;
 	width: 200px;
 	font-size: 1.1rem;
 	border-radius: 5px;
@@ -137,8 +137,7 @@ form#search{
 		padding: 10px 20px;
 	}
 	
-	.header li#search{
-		padding: 10px;
+	.header .searchForm{
 		padding-right: 7vw;
 	}
 	
