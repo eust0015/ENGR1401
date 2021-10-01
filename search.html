@@ -5,79 +5,109 @@
     <meta name="author" content="Adam, Danaan, Kyle, & Nick">
     <meta name="description" content="Search Page">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/search.css">
     <script src="scripts/search-script.js" defer></script>
   </head>
   <body>
-    <ul id="menu">
-      <li><form action="search.html" id="formSearch" name="formSearch" method="GET"><input type="text" id="search" name="search" placeholder="Search" ><input type="submit" value="Search"/></form></li>
-      <li></li><a href="index.html">Home</a></li>
-      <li><a href="map.html">Map</a></li>
-      <li><a href="culture.html">Culture</a></li>
-      <li><a href="environment.html">Environment</a></li>
-      <li><a href="amenities.html">Amenities</a></li>
-      <li><a href="camping.html">Camping</a></li>
-      <li><a href="transportation.html">Transportation</a></li>
-      <li><a href="emergency.html">Emergency</a></li>
-    </ul> 
-    <h1>Search Page</h1>
-    <div id="home" name="home" class="searchPageDiv">
-      <a href="index.html">Home</a>
-      <br>
-      Insert home page description here
-      <br>
-    </div>
-    <div id="map" name="map" class="searchPageDiv">
-      <a href="map.html">Map</a>
-      <br>
-      Insert map page description here
-      <br>
-    </div>
-    <div id="culture" name="culture" class="searchPageDiv">
-      <a href="culture.html">Culture</a>
-      <br>
-      Insert culture page description here
-      <br>
-    </div>
-    <div id="environment" name="environment" class="searchPageDiv">
-      <a href="environment.html">Environment</a>
-      <br>
-      Insert environment page description here
-      <br>
-    </div>
-    <div id="amenities" name="amenities" class="searchPageDiv">
-      <a href="amenities.html">Amenities</a>
-      <br>
-      Insert amenities page description here
-      <br>
-    </div>
-    <div id="camping" name="camping" class="searchPageDiv">
-      <a href="camping.html">Camping</a>
-      <br>
-      Insert camping page description here
-      <br>
-    </div>
-    <div id="transportation" name="transportation" class="searchPageDiv">
-      <a href="transportation.html">Transportation</a>
-      <br>
-      Insert transportation page description here
-      <br>
-      <ul>
-        <li><a href="transportation.html#landDiv">Transport By Land</a></li>
-        <li><a href="transportation.html#tourDiv">Bus Tours</a></li>
-        <li><a href="transportation.html#routesDiv">2WD and 4WD Roads</a></li>
-        <li><a href="transportation.html#airDiv">Transport By Air</a></li>
-        <li><a href="transportation.html#seaDiv">Transport By Sea</a></li>
-        <li><a href="transportation.html#seasonsDiv">Seasons</a></li>
-      </ul>
-    </div>
-    <div id="emergency" name="emergency" class="searchPageDiv">
-      <a href="emergency.html">Emergency</a>
-      <br>
-      Insert emergency page description here
-      <br>
-    </div>
-    <div id="noResults" name="noResults" class="searchPageDiv">
-      There was no results found that matched the entered search word/s.
+    <header class="header">
+			<input class="menu-btn" type="checkbox" id="menu-btn">
+			<label class="menu-icon" for="menu-btn">
+				<span class="nav-icon">
+				</span>
+			</label>
+			<ul class="menu">
+				<li id="search"><form action="search.html" id="formSearch" name="formSearch" method="GET"><input type="text" id="search" name="search" placeholder="Search" ><input type="submit" id="searchButton" value="Search"/></form></li>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="map.html">Map</a></li>
+				<li><a href="culture.html">Culture</a></li>
+				<li><a href="environment.html">Environment</a></li>
+				<li><a href="amenities.html">Amenities</a></li>
+				<li><a href="camping.html">Camping</a></li>
+				<li><a href="transportation.html">Transportation</a></li>
+				<li><a href="emergency.html">Emergency</a></li>
+			  </ul>
+		</header>
+    <p id="searchDescription">Search Page</p>
+
+    <div id="searchResultsArea" class="grid-item">
+      <div class="card">
+        <div class="card-content">
+          
+          <div id="home" name="home" class="searchPageDiv">
+            <a href="index.html" class="card-heading-link">Home</a>
+            <br>
+            <p class="card-text">
+              Insert home page description here
+            </p>
+            <br>
+          </div>
+          <div id="map" name="map" class="searchPageDiv">
+            <a href="map.html" class="card-heading-link">Map</a>
+            <br>
+            <p class="card-text">
+            Insert map page description here
+          </p>
+            <br>
+          </div>
+          <div id="culture" name="culture" class="searchPageDiv">
+            <a href="culture.html" class="card-heading-link">Culture</a>
+            <br>
+            <p class="card-text">
+            Insert culture page description here
+          </p>
+            <br>
+          </div>
+          <div id="environment" name="environment" class="searchPageDiv">
+            <a href="environment.html" class="card-heading-link">Environment</a>
+            <br>
+            <p class="card-text">
+            Insert environment page description here
+          </p>
+            <br>
+          </div>
+          <div id="amenities" name="amenities" class="searchPageDiv">
+            <a href="amenities.html" class="card-heading-link">Amenities</a>
+            <br>
+            <p class="card-text">
+            Insert amenities page description here
+          </p>
+            <br>
+          </div>
+          <div id="camping" name="camping" class="searchPageDiv">
+            <a href="camping.html" class="card-heading-link">Camping</a>
+            <br>
+            <p class="card-text">
+            Insert camping page description here
+          </p>
+            <br>
+          </div>
+          <div id="transportation" name="transportation" class="searchPageDiv">
+            <a href="transportation.html" class="card-heading-link">Transportation</a>
+            <br>
+            <p class="card-text">
+            Insert transportation page description here
+          </p>
+            <br>
+            <ul>
+              <li class="card-list-item"><a href="transportation.html#landDiv" class="card-link">Transport By Land</a></li>
+              <li class="card-list-item"><a href="transportation.html#tourDiv" class="card-link">Bus Tours</a></li>
+              <li class="card-list-item"><a href="transportation.html#routesDiv" class="card-link">2WD and 4WD Roads</a></li>
+              <li class="card-list-item"><a href="transportation.html#airDiv" class="card-link">Transport By Air</a></li>
+              <li class="card-list-item"><a href="transportation.html#seaDiv" class="card-link">Transport By Sea</a></li>
+              <li class="card-list-item"><a href="transportation.html#seasonsDiv" class="card-link">Seasons</a></li>
+            </ul>
+          </div>
+          <div id="emergency" name="emergency" class="searchPageDiv">
+            <a href="emergency.html" class="card-heading-link">Emergency</a>
+            <br>
+            <p class="card-text">
+            Insert emergency page description here
+          </p>
+            <br>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

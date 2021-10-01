@@ -12,7 +12,8 @@ const amenities = document.querySelector("#amenities");
 const camping = document.querySelector("#camping");
 const transportation = document.querySelector("#transportation");
 const emergency = document.querySelector("#emergency");
-const noResults = document.querySelector("#noResults");
+const searchDescription = document.querySelector("#searchDescription");
+const searchResultsArea = document.querySelector("#searchResultsArea");
 
 // Home
 if(searchText.search("home") > -1
@@ -170,5 +171,9 @@ else{
 
 // No Results
 if(found){
-    noResults.style.display = "none";
-} 
+    searchDescription.innerText = "Showing search results for: " + searchText;
+}
+else{
+    searchDescription.innerText = "There was no search results found for: " + searchText;
+    searchResultsArea.style.display = "none";
+}
