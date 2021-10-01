@@ -1,2 +1,13 @@
-#map { height: 480px; width: 640px; }
+body {
+	background-color: DarkSlateGrey;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100vw;
+	text-align: left;
+	min-height: 1vh;
+}
+
+#map { position: absolute; top: 50px; height: calc(100vh - 50px); width: 100vw; }
 .leaflet-control-layers-list { text-align: left; }
