@@ -180,7 +180,8 @@ function initialiseMap()
         }
     }
     
-    var baseLayers = {"No overlay": L.layerGroup().addTo(map)};
+    //var baseLayers = {"No overlay": L.layerGroup().addTo(map)};
+    var baseLayers = null;
     L.control.layers(baseLayers, markerLayers, {collapsed: false}).addTo(map);
 }
 
